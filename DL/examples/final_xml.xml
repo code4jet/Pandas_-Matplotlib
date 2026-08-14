@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<COLLEGE>
+
+    <STUDENT>
+        <ROLL_NO>101</ROLL_NO>
+        <NAME>Dipak</NAME>
+        <BRANCH>IT</BRANCH>
+        <SEMESTER>4</SEMESTER>
+        <CGPA>7.87</CGPA>
+        <EMAIL>dipak@gmail.com</EMAIL>
+        <PHONE>9876543210</PHONE>
+
+        <ADDRESS>
+            <CITY>Surat</CITY>
+            <STATE>Gujarat</STATE>
+            <PIN>395007</PIN>
+        </ADDRESS>
+
+        <SUBJECTS>
+            <SUBJECT>
+                <NAME>Python</NAME>
+                <MARKS>92</MARKS>
+            </SUBJECT>
+
+            <SUBJECT>
+                <NAME>Data Structures</NAME>
+                <MARKS>88</MARKS>
+            </SUBJECT>
+
+            <SUBJECT>
+                <NAME>Machine Learning</NAME>
+                <MARKS>95</MARKS>
+            </SUBJECT>
+        </SUBJECTS>
+
+    </STUDENT>
+
+    <STUDENT>
+        <ROLL_NO>102</ROLL_NO>
+        <NAME>Rahul</NAME>
+        <BRANCH>CE</BRANCH>
+        <SEMESTER>4</SEMESTER>
+        <CGPA>8.45</CGPA>
+        <EMAIL>rahul@gmail.com</EMAIL>
+        <PHONE>9999999999</PHONE>
+
+        <ADDRESS>
+            <CITY>Ahmedabad</CITY>
+            <STATE>Gujarat</STATE>
+            <PIN>380001</PIN>
+        </ADDRESS>
+
+        <SUBJECTS>
+            <SUBJECT>
+                <NAME>Python</NAME>
+                <MARKS>81</MARKS>
+            </SUBJECT>
+
+            <SUBJECT>
+                <NAME>Database</NAME>
+                <MARKS>90</MARKS>
+            </SUBJECT>
+        </SUBJECTS>
+
+    </STUDENT>
+
+</COLLEGE>
