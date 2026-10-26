@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Getting Started with pandas</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --panel: #161923;
+    --border: #262b3a;
+    --text: #e4e6eb;
+    --muted: #9aa1b1;
+    --accent: #7dd3fc;
+    --accent2: #a5b4fc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 4px;
+    color: #fff;
+  }
+  .subtitle {
+    color: var(--muted);
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    color: var(--accent);
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+  }
+  p { color: var(--text); }
+  ul {
+    margin: 10px 0;
+    padding-left: 22px;
+  }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+  }
+  .lib-list li {
+    list-style: none;
+    margin-bottom: 8px;
+    padding-left: 0;
+  }
+  .lib-list {
+    padding-left: 0;
+  }
+  .lib-name {
+    color: var(--accent2);
+    font-weight: 600;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  }
+  .arrow { color: var(--muted); margin: 0 6px; }
+  code {
+    background: #1e2230;
+    color: var(--accent2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.9em;
+  }
+  .question {
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  .summary {
+    margin-top: 48px;
+    padding: 20px 24px;
+    background: var(--panel);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .facts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Getting Started with pandas</h1>
+    <p class="subtitle">Why pandas matters and how it fits into the Python data ecosystem</p>
+
+    <p>This page explains why pandas is important and how it fits into the Python data ecosystem.</p>
+
+    <h2>Key Points</h2>
+    <div class="card">
+      <p>Pandas is the main library for data analysis in Python. It is used for:</p>
+      <ul>
+        <li>Data cleaning</li>
+        <li>Data transformation</li>
+        <li>Data manipulation</li>
+        <li>Data analysis</li>
+      </ul>
+    </div>
+
+    <h2>Pandas Works With Other Libraries</h2>
+    <div class="card">
+      <ul class="lib-list">
+        <li><span class="lib-name">NumPy</span><span class="arrow">&rarr;</span>Fast numerical computations</li>
+        <li><span class="lib-name">SciPy</span><span class="arrow">&rarr;</span>Scientific computing</li>
+        <li><span class="lib-name">statsmodels</span><span class="arrow">&rarr;</span>Statistical analysis</li>
+        <li><span class="lib-name">scikit-learn</span><span class="arrow">&rarr;</span>Machine learning</li>
+        <li><span class="lib-name">matplotlib</span><span class="arrow">&rarr;</span>Data visualization</li>
+      </ul>
+    </div>
+
+    <h2>Built on Top of NumPy</h2>
+    <div class="card">
+      <p>Pandas uses <code>NumPy</code> internally. Therefore, it inherits NumPy's speed and efficient array-based operations.</p>
+    </div>
+
+    <h2>Why Use Pandas Instead of Only NumPy?</h2>
+    <div class="card">
+      <p><code>NumPy</code> is mainly for homogeneous numerical arrays.</p>
+      <p><code>pandas</code> is designed for tabular and heterogeneous data (different data types like numbers, strings, dates, etc.), just like Excel or SQL tables.</p>
+    </div>
+
+   
+  </div>
+</body>
+</html>
